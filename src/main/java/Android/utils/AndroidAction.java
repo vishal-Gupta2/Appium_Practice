@@ -46,6 +46,7 @@ public class AndroidAction {
 		return data;
 	}
 	
+	//just to test the branch functionality of the github
 	public String getScreenShot(String testName,AppiumDriver driver) throws IOException {
 		
 		File src = driver.getScreenshotAs(OutputType.FILE);
